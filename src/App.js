@@ -1,16 +1,10 @@
 import React from 'react';
+import ShopItem from './ShopItem'
 import './App.css';
 
 const App = () => {
-  const count = 0;
-
-  return (
-    <div className="App">
-      <button id="decrement-button">−</button>
-      <div id="number">{count}</div>
-      <button id="increment-button">+</button>
-    </div>
-  );
+  //loading ShopItem componnent
+  return <ShopItem />
 };
 
 export default App;
